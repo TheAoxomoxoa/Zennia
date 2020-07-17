@@ -1275,7 +1275,7 @@ std::string Item::getDescription(const ItemType& it, int32_t lookDistance,
 		uint32_t volume = 0;
 		if (!item || !item->hasAttribute(ITEM_ATTRIBUTE_UNIQUEID)) {
 			if (it.isContainer()) {
-				volume = it.maxItems;
+				volume = item->getName() == "Quiver" ? 5 : it.maxItems;
 			} else {
 				volume = item->getContainer()->capacity();
 			}

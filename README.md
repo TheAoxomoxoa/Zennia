@@ -23,7 +23,7 @@ Real Tibia Redesigned
 - Weapons
 	- More spears are added to the game. Spears no longer start at 30 attack.
 	- Wooden Spear: 10 Attack (Level 2+ Average) | Stone Tipped Spear: 15 Attack (Level 8+ Average) | Knight Spear: 20 Attack (Level 12+ Average)
-    
+
 #### Client Side
 - Sprites
 	- Sprites of some items are changed to reflect a new style. Taken from 7.4-10.98 as well as OT Sprite Pack and being hand made by me.
@@ -37,9 +37,14 @@ Real Tibia Redesigned
 
 ##### To Do:
 - To Remove:
-	- Full Mana/HP Gain on Level Up
-	- Logout in PZ after combat without waiting for combat lock.
+	- All done for now.
 
 - To Add:
-	- 5 Slot Quiver
 	- Monster Level System (Based on difficulty and without bonus attribution to attack, defense, speed and experience)
+
+- Done:
+	- Removed:
+		- Ability to logoff in a PZ zone while combat locked.
+		- Full health & mana on level up.
+	- Added:
+		- 5 slot quiver.
