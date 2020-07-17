@@ -37,10 +37,13 @@ Real Tibia Redesigned
 
 ##### To Do:
 - To Remove:
-	- All done for now.
+	- Rune stacking.
+	- Various runes and spells.
 
 - To Add:
-	- Monster Level System (Based on difficulty and without bonus attribution to attack, defense, speed and experience)
+	- Monster Level System (Based on difficulty and without bonus attribution to attack, defense, speed and experience).
+	- Redesigned Fishing System.
+	- Redesigned Potion System.
 
 - Done:
 	- Removed:
