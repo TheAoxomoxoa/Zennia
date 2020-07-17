@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Dwarf Miner" nameDescription="a dwarf miner" race="blood" experience="60" speed="150" manacost="420">
+	<health now="50" max="50" />
+	<look type="160" head="77" body="101" legs="97" feet="115" corpse="2960" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="1" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="80" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-20" />
+	</attacks>
+	<defenses armor="7" defense="8" />
+	<voices interval="5000" chance="10">
+		<voice sentence="Work, work!" />
+		<voice sentence="Intruders in the mines!" />
+		<voice sentence="Mine, all mine!" />
+	</voices>
+	<loot>
+		<item name="gold coin" countmax="12" chance="50000" />
+		<item name="Avalonian token" countmax="1" chance="5000" />
+		<item name="meat" chance="15000" />
+	</loot>
+</monster>

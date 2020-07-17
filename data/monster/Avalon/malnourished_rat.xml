@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Malnourished Rat" nameDescription="a malnourished rat" race="blood" experience="3" speed="135" manacost="200">
+	<health now="15" max="18" />
+	<look type="21" corpse="2813" />
+	<targetchange interval="4000" chance="0" />
+	<level min="1" max="2" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="1" />
+		<flag convinceable="0" />
+		<flag pushable="1" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="90" />
+		<flag runonhealth="5" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-5" />
+	</attacks>
+	<defenses armor="1" defense="3" />
+	<voices interval="5000" chance="10">
+		<voice sentence="Meep!" />
+	</voices>
+	<loot>
+		<item id="2696" chance="39410" /><!-- cheese -->
+		<item name="cookie" chance="3500" />
+	</loot>
+</monster>

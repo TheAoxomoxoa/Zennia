@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Eoghan" script="Avalon/Eoghan.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+	<look type="57" corpse="20559" />
+    <parameters>
+        <parameter key="message_greet" value="Greetings, |PLAYERNAME|. I'm Eoghan, Avalon's cleric. I take care of the temple, {heal} injured citizens, and {trade} health potions which I brew myself."/>
+        <parameter key="message_farewell" value="Good bye."/>
+		<parameter key="message_walkaway" value="Common courtesy would be nice."/>
+		<parameter key="message_idletimeout" value="I see you are meditating. I will leave you alone."/>
+		<parameter key="message_sendtrade" value="Take a look."/>
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="health potion,7618,25;" />
+				<parameter key="shop_sellable" value="Empty Potion Flask,7636,2;" />
+    </parameters>
+</npc>

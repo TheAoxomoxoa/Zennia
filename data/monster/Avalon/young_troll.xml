@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Young Troll" nameDescription="a young troll" race="blood" experience="10" speed="135" manacost="0">
+	<health now="35" max="35" />
+	<look type="15" corpse="2806" />
+	<targetchange interval="5000" chance="0" />
+	<level min="2" max="3" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="1" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="90" />
+		<flag runonhealth="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-10" />
+	</attacks>
+	<defenses armor="3" defense="3" />
+	<loot>
+		<item name="gold coin" countmax="3" chance="50000" />
+		<item name="studded club" chance="750" />
+		<item name="meat" chance="14000" />
+	</loot>
+</monster>

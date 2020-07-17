@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Anna" script="default.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="139" head="40" body="114" legs="95" feet="76" addons="0" />
+	<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="Chain Helmet,2458,25;Doublet,2485,8;Leather Armor,2467,12;Leather Legs,2649,5;Leather Helmet,2461,6;Studded Helmet,2482,30;Studded Shield,2526,25;Wooden Shield,2512,7;" />
+		<parameter key="shop_sellable" value="Chain Helmet,2458,6;Doublet,2485,1;Leather Armor,2467,3;Leather Legs,2649,1;Leather Helmet,2461,2;Studded Helmet,2482,10;Studded Shield,2526,8;Wooden Shield,2512,1;" />
+	</parameters>
+</npc>

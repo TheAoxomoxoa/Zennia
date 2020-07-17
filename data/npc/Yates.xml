@@ -1,0 +1,7 @@
+<npc name="Yates" script="Avalon/YatesToken.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="129" head="78" body="120" legs="120" feet="114" addons="3"/>
+	<parameters>
+			<parameter key="message_greet" value="Wow, someone found me! You're |PLAYERNAME| I take it? My name is Yates. I fletch arrows here in my...house...if you would like to {trade} an Avalonian token, I will give you 50 arrows."/>
+	</parameters>
+</npc>

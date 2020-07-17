@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Troll Guard" nameDescription="a troll guard" race="blood" experience="23" speed="180">
+	<health now="60" max="60" />
+	<look type="281" corpse="7927" />
+	<targetchange interval="5000" chance="20" />
+	<level min="9" max="10" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="1" />
+		<flag convinceable="0" />
+		<flag pushable="1" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="90" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-22" />
+	</attacks>
+	<defenses armor="10" defense="10" />
+	<loot>
+		<item id="2120" chance="7950" /><!-- rope -->
+		<item name="gold coin" countmax="6" chance="65300" />
+		<item name="silver amulet" chance="80" />
+		<item name="hand axe" chance="18000" />
+		<item id="7378" chance="8000" /><!-- Stone Tipped Spear -->
+		<item name="studded club" chance="5000" />
+		<item name="leather helmet" chance="12000" />
+		<item id="2526" chance="4730" /><!-- wooden shield -->
+		<item name="leather boots" chance="10000" />
+		<item name="meat" chance="15000" />
+		<item name="bunch of troll hair" chance="1000" />
+	</loot>
+</monster>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Dante" script="Thais/Dante.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="128" head="97" body="38" legs="69" feet="114" addons="0" />
+	<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="
+			shovel,2554,10;
+			fishing rod,2580,75;
+			rope,2120,10;
+			machete,2420,20;
+			orange backpack,10519,5;
+			orange bag,10520,2;
+			pick,2553,25;
+			scythe,2550,25;
+			torch,2050,2;
+			crowbar,10223,130;" />
+	</parameters>
+</npc>

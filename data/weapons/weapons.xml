@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<weapons>
+	<!-- Rods -->
+	<wand id="23721" mana="1" min="3" max="7" type="ice"> <!-- The Chiller -->
+		<vocation name="Druid" />
+	</wand>
+	<wand id="2182" mana="2" min="8" max="18" type="earth"> <!-- Snakebit Rod -->
+		<vocation name="Druid" />
+	</wand>
+	<wand id="2186" mana="3" min="13" max="25" type="ice"> <!-- Moonlight Rod -->
+		<vocation name="Druid" />
+	</wand>
+	<wand id="2185" mana="5" min="27" max="33" type="death"> <!-- Necrotic Rod -->
+		<vocation name="Druid" />
+	</wand>
+	<wand id="8911" mana="5" min="27" max="33" type="ice"> <!-- Northwind Rod -->
+		<vocation name="Druid" />
+	</wand>
+	<wand id="2181" mana="8" min="42" max="48" type="earth"> <!-- Terra Rod -->
+		<vocation name="Druid" />
+	</wand>
+	<wand id="2183" mana="13" min="55" max="75" type="ice"> <!-- Hailstorm Rod -->
+		<vocation name="Druid" />
+	</wand>
+	<wand id="8912" mana="13" min="55" max="75" type="earth"> <!-- Springsprout Rod -->
+		<vocation name="Druid" />
+	</wand>
+	<wand id="8910" mana="13" min="55" max="75" type="death"> <!-- Underworld Rod -->
+		<vocation name="Druid" />
+	</wand>
+	<wand id="13872" mana="13" min="55" max="75" type="ice"> <!-- Shimmer Rod -->
+		<vocation name="Druid" />
+	</wand>
+	<wand id="18411" mana="17" min="70" max="100" type="earth"> <!-- Muck Rod -->
+		<vocation name="Druid" />
+	</wand>
+	<wand id="18412" mana="17" min="70" max="100" type="ice"> <!-- Glacial Rod -->
+		<vocation name="Druid" />
+	</wand>
+
+	<!-- Wands -->
+	<wand id="23719" mana="1" min="3" max="7" type="fire"> <!-- The Scorcher -->
+		<vocation name="Sorcerer" />
+	</wand>
+	<wand id="2190" mana="2" min="8" max="18" type="energy"> <!-- Wand of Vortex -->
+		<vocation name="Sorcerer" />
+	</wand>
+	<wand id="2191" mana="3" min="13" max="25" type="fire"> <!-- Wand of Dragonbreath -->
+		<vocation name="Sorcerer" />
+	</wand>
+	<wand id="2188" mana="5" min="27" max="33" type="death"> <!-- Wand of Decay -->
+		<vocation name="Sorcerer" />
+	</wand>
+	<wand id="8921" mana="5" min="27" max="33" type="fire"> <!-- Wand of Draconia -->
+		<vocation name="Sorcerer" />
+	</wand>
+	<wand id="2189" mana="8" min="42" max="48" type="energy"> <!-- Wand of Cosmic Energy -->
+		<vocation name="Sorcerer" />
+	</wand>
+	<wand id="2187" mana="13" min="55" max="75" type="fire"> <!-- Wand of Inferno -->
+		<vocation name="Sorcerer" />
+	</wand>
+	<wand id="8920" mana="13" min="55" max="75" type="energy"> <!-- Wand of Starmstorm -->
+		<vocation name="Sorcerer" />
+	</wand>
+	<wand id="8922" mana="13" min="55" max="75" type="death"> <!-- Wand of Voodoo -->
+		<vocation name="Sorcerer" />
+	</wand>
+	<wand id="13760" mana="13" min="55" max="75" type="death"> <!-- Wand of Dimensions -->
+		<vocation name="Sorcerer" />
+	</wand>
+	<wand id="13880" mana="13" min="55" max="75" type="energy"> <!-- Shimmer Wand -->
+		<vocation name="Sorcerer" />
+	</wand>
+	<wand id="18390" mana="17" min="70" max="100" type="energy"> <!-- Wand of Defiance -->
+		<vocation name="Sorcerer" />
+	</wand>
+	<wand id="18409" mana="17" min="70" max="100" type="fire"> <!-- Wand of Everblazing -->
+		<vocation name="Sorcerer" />
+	</wand>
+
+<!-- Swords -->
+	<melee id="2396" action="removecharge" />
+	<!-- Fire -->
+	<melee id="7744" action="removecharge" />
+	<melee id="7745" action="removecharge" />
+	<melee id="7746" action="removecharge" />
+	<melee id="7747" action="removecharge" />
+	<melee id="7748" action="removecharge" />
+	<!-- Ice -->
+	<melee id="7763" action="removecharge" />
+	<melee id="7764" action="removecharge" />
+	<melee id="7765" action="removecharge" />
+	<melee id="7766" action="removecharge" />
+	<melee id="7767" action="removecharge" />
+	<!-- Earth -->
+	<melee id="7854" action="removecharge" />
+	<melee id="7855" action="removecharge" />
+	<melee id="7856" action="removecharge" />
+	<melee id="7857" action="removecharge" />
+	<melee id="7858" action="removecharge" />
+	<!-- Energy -->
+	<melee id="7869" action="removecharge" />
+	<melee id="7870" action="removecharge" />
+	<melee id="7871" action="removecharge" />
+	<melee id="7872" action="removecharge" />
+	<melee id="7873" action="removecharge" />
+
+<!-- Axes -->
+	<!-- Fire -->
+	<melee id="7749" action="removecharge" />
+	<melee id="7750" action="removecharge" />
+	<melee id="7751" action="removecharge" />
+	<melee id="7752" action="removecharge" />
+	<melee id="7753" action="removecharge" />
+	<!-- Ice -->
+	<melee id="7768" action="removecharge" />
+	<melee id="7769" action="removecharge" />
+	<melee id="7770" action="removecharge" />
+	<melee id="7771" action="removecharge" />
+	<melee id="7772" action="removecharge" />
+	<!-- Earth -->
+	<melee id="7859" action="removecharge" />
+	<melee id="7860" action="removecharge" />
+	<melee id="7861" action="removecharge" />
+	<melee id="7862" action="removecharge" />
+	<melee id="7863" action="removecharge" />
+	<!-- Energy -->
+	<melee id="7874" action="removecharge" />
+	<melee id="7875" action="removecharge" />
+	<melee id="7876" action="removecharge" />
+	<melee id="7877" action="removecharge" />
+	<melee id="7878" action="removecharge" />
+
+<!--Clubs -->
+	<!-- Fire -->
+	<melee id="7754" action="removecharge" />
+	<melee id="7755" action="removecharge" />
+	<melee id="7756" action="removecharge" />
+	<melee id="7757" action="removecharge" />
+	<melee id="7758" action="removecharge" />
+	<!-- Ice -->
+	<melee id="7773" action="removecharge" />
+	<melee id="7774" action="removecharge" />
+	<melee id="7775" action="removecharge" />
+	<melee id="7776" action="removecharge" />
+	<melee id="7777" action="removecharge" />
+	<!-- Earth -->
+	<melee id="7864" action="removecharge" />
+	<melee id="7865" action="removecharge" />
+	<melee id="7866" action="removecharge" />
+	<melee id="7867" action="removecharge" />
+	<melee id="7868" action="removecharge" />
+	<!-- Energy -->
+	<melee id="7879" action="removecharge" />
+	<melee id="7880" action="removecharge" />
+	<melee id="7881" action="removecharge" />
+	<melee id="7882" action="removecharge" />
+	<melee id="7883" action="removecharge" />
+
+<!-- Ammunition -->
+	<!-- Thrown -->
+		<!-- Spears -->
+			<distance id="26382" breakchance="1" action="move" /> <!-- Wooden Spear -->
+			<distance id="2389" breakchance="1" action="move" /> <!-- Spear -->
+			<distance id="3965" breakchance="1" action="move" /> <!-- Hunting Spear -->
+			<distance id="7378" breakchance="1" action="move" /> <!-- Royal Spear -->
+			<distance id="7367" breakchance="0" action="move" /> <!-- Enchanted Spear -->
+			<distance id="23529" breakchance="3" action="move" /> <!-- Glooth Spear -->
+		<!-- Stars & Knives -->
+			<distance id="2410" breakchance="12" action="move" /> <!-- Throwing Knife -->
+			<distance id="2399" breakchance="12" action="move" /> <!-- Throwing Star -->
+			<distance id="7366" breakchance="12" script="viper_star.lua" /> <!-- Viper Star -->
+			<distance id="7368" breakchance="12" action="move" /> <!-- Assassin Star -->
+		<!-- Rocks -->
+			<distance id="1294" breakchance="3" action="move" /> <!-- Small Stone -->
+		<!-- Seasonal -->
+			<distance id="2111" action="removecount" /> <!-- Snowball -->
+	<!-- Arrows -->
+		<distance id="2544" breakchance="63" action="move" /> <!-- Arrow -->
+		<distance id="2545" breakchance="63" action="move" script="poison_arrow.lua" /> <!-- Poison Arrow -->
+		<distance id="2546" breakchance="63" action="move" script="burst_arrow.lua" /> <!-- Burst Arrow -->
+		<distance id="7364" breakchance="63" action="move" /> <!-- Sniper Arrow -->
+		<distance id="7365" breakchance="63" action="move" /> <!-- Onyx Arrow -->
+		<distance id="7838" breakchance="63" action="move" /> <!-- Flash Arrow -->
+		<distance id="7839" breakchance="63" action="move" /> <!-- Shiver Arrow -->
+		<distance id="7840" breakchance="63" action="move" /> <!-- Flaming Arrow -->
+		<distance id="7850" breakchance="63" action="move" /> <!-- Earth Arrow -->
+		<distance id="15648" breakchance="63" action="move" /> <!-- Tarsal Arrow -->
+		<distance id="18304" breakchance="5" action="move" /> <!-- Crystalline Arrow -->
+		<distance id="18437" breakchance="63" action="move" /> <!-- Envenomed Arrow -->
+		<distance id="23839" breakchance="68" action="move" /> <!-- Simple Arrow -->
+	<!-- Bolts -->
+		<distance id="2543" breakchance="27" action="move" /> <!-- Bolt -->
+		<distance id="7363" breakchance="27" action="move" /> <!-- Piercing Bolt -->
+		<distance id="2547" breakchance="27" action="move" /> <!-- Power Bolt -->
+		<distance id="6529" breakchance="27" action="move" /> <!-- Infernal Bolt -->
+		<distance id="15649" breakchance="27" action="move" /> <!-- Vortex Bolt -->
+		<distance id="18303" breakchance="5" action="move" /> <!-- Crystal Bolt -->
+		<distance id="18435" breakchance="27" action="move" /> <!-- Prismatic Bolt -->
+		<distance id="18436" breakchance="27" action="move" /> <!-- Drill Bolt -->
+</weapons>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Gaius" script="Avalon/GaiusTasks.lua" walkinterval="2000" floorchange="0">
+    <health now="100" max="100" />
+    <look type="143" head="40" body="115" legs="96" feet="114" addons="3" />
+    <parameters>
+        <parameter key="message_greet" value="Hello there, |PLAYERNAME|! I am Gaius, the taskmaster here in Avalon. I can provide you with {tasks} to get you started here if you would like." />
+        <parameter key="message_walkaway" value="Like the wind..." />
+        <parameter key="message_farewell" value="Goodbye, |PLAYERNAME|." />
+    </parameters>
+</npc>

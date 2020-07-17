@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<creaturescripts>
+	<event type="login" name="PlayerLogin" script="login.lua" />
+	<event type="logout" name="PlayerLogout" script="logout.lua" />
+	<event type="login" name="OfflineTraining" script="offlinetraining.lua" />
+	<event type="login" name="RegenerateStamina" script="regeneratestamina.lua" />
+	<event type="death" name="PlayerDeath" script="playerdeath.lua" />
+	<event type="death" name="DropLoot" script="droploot.lua" />
+	<event type="extendedopcode" name="ExtendedOpcode" script="extendedopcode.lua" />
+	<!-- Avalon -->
+	<event type="login" name="BeginningItems" script="Avalon/BeginningItems.lua" />
+	<event type="kill" name="GaiusTasks" script="Avalon/GaiusTasks.lua" />
+	<event type="advance" name="AvalonMSG" script="Avalon/AvalonMSG.lua"/>
+</creaturescripts>

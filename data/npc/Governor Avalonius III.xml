@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Governor Avalonius III" script="Avalon/GovernorAvalonius.lua" walkinterval="0" floorchange="0" speechbubble="3">
+<health now="100" max="100"/>
+	<look type="472" head="0" body="113" legs="21" feet="114" addons="3" corpse="20559" />
+	<parameters>
+		<parameter key="message_greet" value="Ah yes, I've been expecting you, |PLAYERNAME|, are you ready to leave Avalon?" />
+		<parameter key="message_walkaway" value="I thought Avalonians were kind people..." />
+		<parameter key="message_farewell" value="Farwell, citizen." />
+	</parameters>
+</npc>

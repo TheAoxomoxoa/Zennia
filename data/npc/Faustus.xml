@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Faustus" script="Thais/Faustus.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="133" head="97" body="69" legs="31" feet="127" addons="1" />
+	<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="
+			blank rune,2260,5;
+			small mana potion,7620,30;
+			small healing potion, 7618,25;
+			spellbook,2175,150;" />
+		<parameter key="shop_sellable" value="
+			empty potion flask,7636,2;" />
+	</parameters>
+</npc>

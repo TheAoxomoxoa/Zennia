@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Willow" script="default.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="138" head="97" body="109" legs="91" feet="114" addons="0" />
+	<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="Bread,2689,1;Cheese,2696,1;Ham,2671,2;Meat,2666,1;" />
+		<parameter key="shop_sellable" value="Cookie,2687,3;" />
+	</parameters>
+</npc>

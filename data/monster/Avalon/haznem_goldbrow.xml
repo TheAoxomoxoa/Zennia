@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Haznem Goldbrow" nameDescription="Haznem Goldbrow" race="blood" experience="60" speed="150" manacost="420">
+	<health now="65" max="65" />
+	<look type="70" corpse="2983" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="80" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-30" />
+	</attacks>
+	<defenses armor="8" defense="8" />
+	<voices interval="5000" chance="10">
+		<voice sentence="My precious ore is in danger!" />
+		<voice sentence="You won't leave here alive!" />
+		<voice sentence="This mine is ours! Get out!" />
+	</voices>
+	<loot>
+		<item name="gold coin" countmax="25" chance="50000" />
+		<item name="Avalonian token" countmax="1" chance="25000" />
+		<item name="meat" chance="15000" />
+		<item name="hatchet" chance="5000" />
+	</loot>
+</monster>

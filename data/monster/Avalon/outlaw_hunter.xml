@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Outlaw Hunter" nameDescription="an outlaw hunter" race="blood" experience="20" speed="150" manacost="530">
+	<health now="40" max="40" />
+	<look type="129" head="58" body="59" legs="45" feet="114" corpse="20332" />
+	<level min="3" max="4" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="3" />
+		<flag staticattack="90" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-8" />
+		<attack name="physical" interval="2000" chance="50" range="5" min="0" max="-10">
+			<attribute key="shootEffect" value="arrow" />
+		</attack>
+	</attacks>
+	<defenses armor="4" defense="4" />
+	<voices interval="5000" chance="10">
+		<voice sentence="Leave us alone!" />
+		<voice sentence="This is our forest now!" />
+		<voice sentence="You're inturrupting our business!" />
+		<voice sentence="Show me what you got, pal!" />
+	</voices>
+	<loot>
+		<item id="2050" chance="3300" /><!-- torch -->
+		<item name="gold coin" countmax="10" chance="45000" />
+		<item name="arrow" countmax="3" chance="25000" />
+		<item name="meat" countmax="2" chance="30000" />
+		<item name="Avalonian token" countmax="1" chance="5000" />
+	</loot>
+</monster>

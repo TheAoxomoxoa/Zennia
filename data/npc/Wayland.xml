@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Wayland" script="Thais/Wayland.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="268" head="78" body="95" legs="76" feet="114" addons="0" />
+	<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="
+			axe,2386,10;
+			battle hammer,2417,175;
+			brass armor,2465,225;
+			chain helmet,2458,25;
+			chain legs,2648,40;
+			club,2382,2;
+			dagger,2379,2;
+			hand axe,2380,4;
+			mace,2398,45;
+			leather armor,2467,12;
+			leather helmet,2461,6;
+			rapier,2384,7;
+			sabre,2385,12;
+			short sword,2406,15;
+			sickle,2405,3;
+			steel shield,2509,120;
+			sword,2376,42;
+			wooden shield,2512,7;
+			Wooden Spear,26382,5;
+			stone tipped spear,2389,10;
+			knight spear,7378,15;" />
+		<parameter key="shop_sellable" value="
+			axe,2386,3;
+			battle axe,2378,40;
+			battle hammer,2417,60;
+			battle shield,2513,48;
+			brass armor,2465,75;
+			chain armor,2464,35;
+			chain helmet,2458,6;
+			chain legs,2648,12;
+			halberd,2381,200;
+			hand axe,2380,2;
+			leather armor,2467,3;
+			Leather Legs,2649,1;
+			leather helmet,2461,2;
+			mace,2398,15;
+			plate armor,2463,200;
+			rapier,2384,2;
+			sabre,2385,6;
+			short sword,2406,5;
+			steel helmet,2457,85;
+			steel shield,2509,40;
+			sword,2376,12;
+			two handed sword,2377,225;
+			wooden shield,2512,1;
+			Studded Shield,2526,8;" />
+	</parameters>
+</npc>
