@@ -1637,8 +1637,8 @@ void Player::addExperience(Creature* source, uint64_t exp, bool sendText/* = fal
 	}
 
 	if (prevLevel != level) {
-		health = getMaxHealth();
-		mana = getMaxMana();
+		//health = getMaxHealth();
+		//mana = getMaxMana();
 
 		updateBaseSpeed();
 		setBaseSpeed(getBaseSpeed());
