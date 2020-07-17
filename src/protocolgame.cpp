@@ -17,6 +17,7 @@
  * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+//monster.h added to includes for the Monster Level System
 #include "otpch.h"
 
 #include <boost/range/adaptor/reversed.hpp>
@@ -35,6 +36,7 @@
 #include "waitlist.h"
 #include "ban.h"
 #include "scheduler.h"
+#include "monster.h"
 
 extern ConfigManager g_config;
 extern Actions actions;
@@ -2821,7 +2823,15 @@ void ProtocolGame::AddCreature(NetworkMessage& msg, const Creature* creature, bo
 		msg.add<uint32_t>(remove);
 		msg.add<uint32_t>(creature->getID());
 		msg.addByte(creatureType);
-		msg.addString(creature->getName());
+
+		// Monster Level System
+		const Monster* monster = creature->getMonster();
+if (monster && monster->getLevel() > 0) {
+	msg.addString(creature->getName() + " [" + std::to_string(monster->getLevel()) + "]");
+} else {
+	msg.addString(creature->getName());
+}
+		//msg.addString(creature->getName());
 	}
 
 	if (creature->isHealthHidden()) {

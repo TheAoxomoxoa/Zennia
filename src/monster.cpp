@@ -17,16 +17,19 @@
  * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+// configmanager.h included for Monster Level System
 #include "otpch.h"
 
 #include "monster.h"
 #include "game.h"
 #include "spells.h"
 #include "events.h"
+#include "configmanager.h"
 
 extern Game g_game;
 extern Monsters g_monsters;
 extern Events* g_events;
+extern ConfigManager g_config;
 
 int32_t Monster::despawnRange;
 int32_t Monster::despawnRadius;
@@ -49,12 +52,29 @@ Monster::Monster(MonsterType* mType) :
 {
 	defaultOutfit = mType->info.outfit;
 	currentOutfit = mType->info.outfit;
+
+	// Monster Level System
 	skull = mType->info.skull;
+
+	level = uniform_random(mType->info.minLevel, mType->info.maxLevel);
 	health = mType->info.health;
 	healthMax = mType->info.healthMax;
 	baseSpeed = mType->info.baseSpeed;
 	internalLight = mType->info.light;
 	hiddenHealth = mType->info.hiddenHealth;
+
+// Monster Level System
+	if (level > 0) {
+	float bonusHp = g_config.getFloat(ConfigManager::MLVL_BONUSHP) * level;
+	if (bonusHp != 0.0) {
+		healthMax += healthMax * bonusHp;
+		health += health * bonusHp;
+	}
+	float bonusSpeed = g_config.getFloat(ConfigManager::MLVL_BONUSSPEED) * level;
+	if (bonusSpeed != 0.0) {
+		baseSpeed += baseSpeed * bonusSpeed;
+	}
+}
 
 	// register creature events
 	for (const std::string& scriptName : mType->info.scripts) {

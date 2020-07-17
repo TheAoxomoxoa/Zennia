@@ -119,6 +119,15 @@ class ConfigManager
 			LAST_INTEGER_CONFIG /* this must be the last one */
 		};
 
+// Monster Level System
+enum floating_config_t {
+	MLVL_BONUSDMG,
+	MLVL_BONUSSPEED,
+	MLVL_BONUSHP,
+
+	LAST_FLOATING_CONFIG
+};
+
 		bool load();
 		bool reload();
 
@@ -126,10 +135,16 @@ class ConfigManager
 		int32_t getNumber(integer_config_t what) const;
 		bool getBoolean(boolean_config_t what) const;
 
+// Monster Level System
+		float getFloat(floating_config_t what) const;
+
 	private:
 		std::string string[LAST_STRING_CONFIG] = {};
 		int32_t integer[LAST_INTEGER_CONFIG] = {};
 		bool boolean[LAST_BOOLEAN_CONFIG] = {};
+
+// Monster Level System
+		float floating[LAST_FLOATING_CONFIG] = {};
 
 		bool loaded = false;
 };
