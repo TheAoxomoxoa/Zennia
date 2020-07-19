@@ -38,15 +38,16 @@
 	</voices>
 	<loot>
 		<item id="2120" chance="7950" /><!-- rope -->
-		<item name="gold coin" countmax="4" chance="65300" />
+		<item name="gold coin" countmax="4" chance="50000" />
 		<item name="silver amulet" chance="80" />
-		<item name="hand axe" chance="18000" />
-		<item id="2389" chance="13000" /><!-- Stone Tipped Spear -->
+		<item name="hand axe" chance="9000" />
+		<item id="2389" chance="10000" /><!-- Stone Tipped Spear -->
 		<item name="studded club" chance="5000" />
-		<item name="leather helmet" chance="12000" />
+		<item name="leather helmet" chance="9000" />
 		<item id="2512" chance="4730" /><!-- wooden shield -->
 		<item name="leather boots" chance="10000" />
 		<item name="meat" chance="15000" />
 		<item name="bunch of troll hair" chance="1000" />
+		<item id="2050" chance="20000" /> <!-- Torch -->
 	</loot>
 </monster>

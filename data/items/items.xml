@@ -2668,7 +2668,7 @@
 		<attribute key="weight" value="210" />
 		<attribute key="charges" value="1" />
 	</item>
-	<item id="2266" article="an" name="cure poison rune">
+	<item id="2266" article="a" name="cure poison rune">
 		<attribute key="type" value="rune" />
 		<attribute key="runeSpellName" value="adana pox" />
 		<attribute key="weight" value="210" />
@@ -3134,7 +3134,6 @@
 		<attribute key="defense" value="12" />
 		<attribute key="attack" value="14" />
 		<attribute key="weaponType" value="sword" />
-		<attribute key="extradef" value="1" />
 	</item>
 	<item id="2377" article="a" name="two handed sword">
 		<attribute key="weight" value="7000" />
@@ -3195,7 +3194,6 @@
 		<attribute key="defense" value="10" />
 		<attribute key="attack" value="12" />
 		<attribute key="weaponType" value="sword" />
-		<attribute key="extradef" value="1" />
 	</item>
 	<item id="2386" article="an" name="axe">
 		<attribute key="weight" value="4000" />
@@ -3561,9 +3559,10 @@
 		<attribute key="extradef" value="1" />
 	</item>
 	<item id="2437" article="a" name="light mace">
-		<attribute key="weight" value="4100" />
-		<attribute key="defense" value="9" />
-		<attribute key="attack" value="14" />
+		<attribute key="description" value="This mace is made with copper, a lighter metal than iron." />
+		<attribute key="weight" value="3500" />
+		<attribute key="defense" value="10" />
+		<attribute key="attack" value="11" />
 		<attribute key="weaponType" value="club" />
 	</item>
 	<item id="2438" article="an" name="epee">
@@ -19534,9 +19533,9 @@
 		<attribute key="slotType" value="feet" />
 		<attribute key="weight" value="2250" />
 	</item>
-	<item id="11241" article="an" name="expedition backpack">
+	<item id="11241" article="an" name="adventurer's backpack">
 		<attribute key="weight" value="1800" />
-		<attribute key="containerSize" value="20" />
+		<attribute key="containerSize" value="25" />
 		<attribute key="slotType" value="backpack" />
 	</item>
 	<item id="11242" article="an" name="expedition bag">
@@ -26480,10 +26479,11 @@
 		<attribute key="weight" value="200" />
 		<attribute key="description" value="A hermit near Carlin might be able to tell you more about it." />
 	</item>
-	<item id="20139" article="a" name="spiky club">
+	<item id="20139" article="a" name="spiked club">
+		<attribute key="description" value="It seems to be made by a troll." />
 		<attribute key="weight" value="3900" />
-		<attribute key="attack" value="31" />
-		<attribute key="defense" value="14" />
+		<attribute key="attack" value="14" />
+		<attribute key="defense" value="11" />
 		<attribute key="weaponType" value="club" />
 	</item>
 	<item fromid="20140" toid="20141" article="a" name="low stone wall" />
@@ -31152,7 +31152,7 @@
 	<item id="30028" name="swamp" />
 	<item id="30035" name="tea" />
 	<item id="30043" name="mead" />
-<!-- Modern Classic Custom Items -->
+<!-- Custom Items -->
 <!-- Containers -->
 <item id="26181" article="a" name="energetic backpack">
 	<attribute key="weight" value="1800" />
@@ -31242,5 +31242,22 @@
 <item id="26399" name="baked chicken meal">
 	<attribute key="weight" value="1000" />
 	<attribute key="showcount" value="0" />
+</item>
+<!-- Spell Wands -->
+<item id="26414" article="a" name="red spellwand">
+	<attribute key="description" value="It glows with a red light." />
+	<attribute key="weight" value="1000" />
+</item>
+<item id="26415" article="a" name="green spellwand">
+	<attribute key="description" value="It glows with a green light." />
+	<attribute key="weight" value="1000" />
+</item>
+<item id="26417" article="a" name="blue spellwand">
+	<attribute key="description" value="It glows with a blue light." />
+	<attribute key="weight" value="1000" />
+</item>
+<item id="26416" article="a" name="yellow spellwand">
+	<attribute key="description" value="It glows with a yellow light." />
+	<attribute key="weight" value="1000" />
 </item>
 </items>

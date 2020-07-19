@@ -769,7 +769,7 @@
 	<monster name="Island Troll" file="Trolls/island_troll.xml" />
 	<monster name="Swamp Troll" file="Trolls/swamp_troll.xml" />
 	<monster name="Troll" file="Trolls/troll.xml" />
-	<monster name="Troll Champion" file="Trolls/troll_champion.xml" />
+	<monster name="Troll Soldier" file="Trolls/troll_soldier.xml" />
 	<monster name="Troll Guard" file="Trolls/troll_guard.xml" />
 	<monster name="Troll Legionnaire" file="Trolls/troll_legionnaire.xml" />
 

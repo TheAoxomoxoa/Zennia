@@ -31,7 +31,7 @@
 	</voices>
 	<loot>
 		<item id="2050" chance="3300" /><!-- torch -->
-		<item name="gold coin" countmax="10" chance="45000" />
+		<item name="gold coin" countmax="5" chance="45000" />
 		<item name="arrow" countmax="3" chance="25000" />
 		<item name="meat" countmax="2" chance="30000" />
 		<item name="Avalonian token" countmax="1" chance="5000" />

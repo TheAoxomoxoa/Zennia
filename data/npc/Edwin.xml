@@ -4,7 +4,7 @@
 	<look type="134" head="39" body="57" legs="95" feet="114" addons="0" />
 	<parameters>
 		<parameter key="module_shop" value="1" />
-		<parameter key="shop_buyable" value="Axe,2386,10;Rapier,2384,7;Sabre,2385,12;Short Sword,2406,15;Wooden Spear,26382,5" />
+		<parameter key="shop_buyable" value="Axe,2386,10;Rapier,2384,7;Sabre,2385,12;Short Sword,2406,15;Wooden Spear,26382,5;light mace,2437,12;" />
 		<parameter key="shop_sellable" value="Combat Knife,2404,1;Axe,2386,3;Hatchet,2388,6;Rapier,2384,2;Sabre,2385,6;Short Sword,2406,5;Sword,2376,12;Studded Club,2448,2;Wooden Spear,26382,1" />
 	</parameters>
 </npc>

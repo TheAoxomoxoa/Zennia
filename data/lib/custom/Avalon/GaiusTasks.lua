@@ -62,7 +62,33 @@ task = {
                 [1] = {
                     name = "gold coin",
                     itemid = 2148,
+                    count = 50,
+                },
+                [2] = {
+                    name = "cure poison rune",
+                    itemid = 2266,
+                    count = 2,
+                },
+            },
+        },
+        [4] = {
+            name = "Spiders",
+            description = "You've proven yourself far beyond what I had expected, citizen. Now is the time to finish your missions. I need you to go to the underbelly of the swamp in the south of the Western Isle and kill 40 of those nasty spiders. You should buy a machete, rope and shovel from John before you go.",
+            monsters = {
+                "Spider",
+                "Poison Spider",
+            },
+            toKill = 40,
+            rewards = {
+                [1] = {
+                    name = "gold coin",
+                    itemid = 2148,
                     count = 75,
+                },
+                [2] = {
+                    name = "adventurer's backpack",
+                    itemid = 11241,
+                    count = 1,
                 },
             },
         },

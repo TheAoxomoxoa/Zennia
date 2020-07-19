@@ -25,15 +25,18 @@
 	<defenses armor="10" defense="10" />
 	<loot>
 		<item id="2120" chance="7950" /><!-- rope -->
-		<item name="gold coin" countmax="6" chance="65300" />
+		<item name="gold coin" countmax="6" chance="50000" />
 		<item name="silver amulet" chance="80" />
-		<item name="hand axe" chance="18000" />
+		<item name="hand axe" chance="14000" />
 		<item id="7378" chance="8000" /><!-- Stone Tipped Spear -->
-		<item name="studded club" chance="5000" />
+		<item name="studded club" chance="13500" />
 		<item name="leather helmet" chance="12000" />
-		<item id="2526" chance="4730" /><!-- wooden shield -->
+		<item id="2526" chance="10000" /><!-- wooden shield -->
 		<item name="leather boots" chance="10000" />
 		<item name="meat" chance="15000" />
 		<item name="bunch of troll hair" chance="1000" />
+		<item id="2437" chance="10000" /> <!-- Light Mace -->
+		<item id="20139" chance="8000" /> <!-- Spiked Club -->
+		<item id="2050" chance="20000" /> <!-- Torch -->
 	</loot>
 </monster>

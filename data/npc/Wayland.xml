@@ -13,6 +13,7 @@
 			club,2382,2;
 			dagger,2379,2;
 			hand axe,2380,4;
+			light mace,2437,12;
 			mace,2398,45;
 			leather armor,2467,12;
 			leather helmet,2461,6;
@@ -40,7 +41,9 @@
 			leather armor,2467,3;
 			Leather Legs,2649,1;
 			leather helmet,2461,2;
+			spiked mace,20139,6;
 			mace,2398,15;
+			light mace,2437,6;
 			plate armor,2463,200;
 			rapier,2384,2;
 			sabre,2385,6;
