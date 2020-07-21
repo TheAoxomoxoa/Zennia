@@ -22,7 +22,12 @@ Real Tibia Redesigned
 
 - Weapons
 	- More spears are added to the game. Spears no longer start at 30 attack.
-	- Wooden Spear: 10 Attack (Level 2+ Average) | Stone Tipped Spear: 15 Attack (Level 8+ Average) | Knight Spear: 20 Attack (Level 12+ Average)
+		- Wooden Spear (Atk: 10)
+		- Stone Tipped Spear (Atk: 15)
+		- Knight Spear (Atk: 20)
+	- More clubs are added to the game to balance the amount of melee weapons for low level knights.
+		- Light Mace (Atk: 11, Def: 10)
+		- Spiked Club (Atk: 14, Def: 11)
 
 #### Client Side
 - Sprites
