@@ -41,9 +41,9 @@ Real Tibia Redesigned
 	- Various runes and spells.
 
 - To Add:
-	- Monster Level System (Based on difficulty and without bonus attribution to attack, defense, speed and experience).
-	- Redesigned Fishing System.
-	- Redesigned Potion System.
+	- Redesigned fishing system.
+	- Redesigned potion system.
+	- New day / night cycle that reflects real life day / night colorations.
 
 - Done:
 	- Removed:
@@ -51,3 +51,4 @@ Real Tibia Redesigned
 		- Full health & mana on level up.
 	- Added:
 		- 5 slot quiver.
+		- Monster Level System (Based on difficulty and without bonus attribution to attack, defense, speed and experience).
