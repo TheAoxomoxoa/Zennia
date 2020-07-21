@@ -3,6 +3,7 @@
 	<health now="145" max="145" />
 	<look type="192" corpse="6069" />
 	<targetchange interval="4000" chance="0" />
+	<level min="15" max="16" />
 	<flags>
 		<flag summonable="0" />
 		<flag attackable="1" />
@@ -30,7 +31,7 @@
 		<element icePercent="-5" />
 	</elements>
 	<loot>
-		<item name="gold coin" countmax="45" chance="50000" />
+		<item name="gold coin" countmax="20" chance="50000" />
 		<item name="meat" countmax="2" chance="9460" />
 		<item name="worm" countmax="2" chance="2100" />
 		<item name="carrion worm fang" chance="10000" />

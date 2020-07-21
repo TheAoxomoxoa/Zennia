@@ -18072,7 +18072,7 @@
 	<item id="10145" article="a" name="potted flower">
 		<attribute key="weight" value="2300" />
 	</item>
-	<item id="10146" article="a" name="blood herb">
+	<item id="10146" article="a" name="forest blood herb">
 		<attribute key="weight" value="120" />
 	</item>
 	<item id="10147" name="exotic flowers">
@@ -26480,7 +26480,7 @@
 		<attribute key="description" value="A hermit near Carlin might be able to tell you more about it." />
 	</item>
 	<item id="20139" article="a" name="spiked club">
-		<attribute key="description" value="It seems to be made by a troll." />
+		<attribute key="description" value="It seems to have been made by a troll." />
 		<attribute key="weight" value="3900" />
 		<attribute key="attack" value="14" />
 		<attribute key="defense" value="11" />
@@ -31189,6 +31189,141 @@
 	<attribute key="weight" value="1600" />
 	<attribute key="containerSize" value="5" />
 </item>
+<item id="26422" article="an" name="energy bomb rune backpack">
+	<attribute key="weight" value="1800" />
+	<attribute key="containerSize" value="20" />
+	<attribute key="slotType" value="backpack" />
+</item>
+<item id="26423" article="a" name="destroy field rune backpack">
+	<attribute key="weight" value="1800" />
+	<attribute key="containerSize" value="20" />
+	<attribute key="slotType" value="backpack" />
+</item>
+<item id="26424" article="a" name="cure poison rune backpack">
+	<attribute key="weight" value="1800" />
+	<attribute key="containerSize" value="20" />
+	<attribute key="slotType" value="backpack" />
+</item>
+<item id="26426" article="a" name="fire wall rune backpack">
+	<attribute key="weight" value="1800" />
+	<attribute key="containerSize" value="20" />
+	<attribute key="slotType" value="backpack" />
+</item>
+<item id="26427" article="a" name="soulfire rune backpack">
+	<attribute key="weight" value="1800" />
+	<attribute key="containerSize" value="20" />
+	<attribute key="slotType" value="backpack" />
+</item>
+<item id="26428" article="a" name="fire bomb rune backpack">
+	<attribute key="weight" value="1800" />
+	<attribute key="containerSize" value="20" />
+	<attribute key="slotType" value="backpack" />
+</item>
+<item id="26429" article="a" name="fireball rune backpack">
+	<attribute key="weight" value="1800" />
+	<attribute key="containerSize" value="20" />
+	<attribute key="slotType" value="backpack" />
+</item>
+<item id="26430" article="a" name="fire field rune backpack">
+	<attribute key="weight" value="1800" />
+	<attribute key="containerSize" value="20" />
+	<attribute key="slotType" value="backpack" />
+</item>
+<item id="26432" article="an" name="energy wall rune backpack">
+	<attribute key="weight" value="1800" />
+	<attribute key="containerSize" value="20" />
+	<attribute key="slotType" value="backpack" />
+</item>
+<item id="26433" article="a" name="paralyze rune backpack">
+	<attribute key="weight" value="1800" />
+	<attribute key="containerSize" value="20" />
+	<attribute key="slotType" value="backpack" />
+</item>
+<item id="26434" article="an" name="energy field rune backpack">
+	<attribute key="weight" value="1800" />
+	<attribute key="containerSize" value="20" />
+	<attribute key="slotType" value="backpack" />
+</item>
+<item id="26435" article="an" name="animate dead rune backpack">
+	<attribute key="weight" value="1800" />
+	<attribute key="containerSize" value="20" />
+	<attribute key="slotType" value="backpack" />
+</item>
+<item id="26436" article="an" name="explosion rune backpack">
+	<attribute key="weight" value="1800" />
+	<attribute key="containerSize" value="20" />
+	<attribute key="slotType" value="backpack" />
+</item>
+<item id="26437" article="a" name="convince creature rune backpack">
+	<attribute key="weight" value="1800" />
+	<attribute key="containerSize" value="20" />
+	<attribute key="slotType" value="backpack" />
+</item>
+<item id="26438" article="a" name="poison wall rune backpack">
+	<attribute key="weight" value="1800" />
+	<attribute key="containerSize" value="20" />
+	<attribute key="slotType" value="backpack" />
+</item>
+<item id="26439" article="a" name="poison bomb rune backpack">
+	<attribute key="weight" value="1800" />
+	<attribute key="containerSize" value="20" />
+	<attribute key="slotType" value="backpack" />
+</item>
+<item id="26440" article="a" name="poison field rune backpack">
+	<attribute key="weight" value="1800" />
+	<attribute key="containerSize" value="20" />
+	<attribute key="slotType" value="backpack" />
+</item>
+<item id="26441" article="a" name="chameleon rune backpack">
+	<attribute key="weight" value="1800" />
+	<attribute key="containerSize" value="20" />
+	<attribute key="slotType" value="backpack" />
+</item>
+<item id="26442" article="a" name="key backpack">
+	<attribute key="weight" value="1800" />
+	<attribute key="containerSize" value="20" />
+	<attribute key="slotType" value="backpack" />
+</item>
+<item id="26443" article="a" name="ultimate healing rune backpack">
+	<attribute key="weight" value="1800" />
+	<attribute key="containerSize" value="20" />
+	<attribute key="slotType" value="backpack" />
+</item>
+<item id="26444" article="a" name="sudden death rune backpack">
+	<attribute key="weight" value="1800" />
+	<attribute key="containerSize" value="20" />
+	<attribute key="slotType" value="backpack" />
+</item>
+<item id="26446" article="a" name="magic wall rune backpack">
+	<attribute key="weight" value="1800" />
+	<attribute key="containerSize" value="20" />
+	<attribute key="slotType" value="backpack" />
+</item>
+<item id="26447" article="a" name="light magic missile rune backpack">
+	<attribute key="weight" value="1800" />
+	<attribute key="containerSize" value="20" />
+	<attribute key="slotType" value="backpack" />
+</item>
+<item id="26448" article="an" name="intense healing rune backpack">
+	<attribute key="weight" value="1800" />
+	<attribute key="containerSize" value="20" />
+	<attribute key="slotType" value="backpack" />
+</item>
+<item id="26449" article="a" name="heavy magic missile rune backpack">
+	<attribute key="weight" value="1800" />
+	<attribute key="containerSize" value="20" />
+	<attribute key="slotType" value="backpack" />
+</item>
+<item id="26450" article="a" name="great fireball rune backpack">
+	<attribute key="weight" value="1800" />
+	<attribute key="containerSize" value="20" />
+	<attribute key="slotType" value="backpack" />
+</item>
+<item id="26451" article="a" name="disintegrate rune backpack">
+	<attribute key="weight" value="1800" />
+	<attribute key="containerSize" value="20" />
+	<attribute key="slotType" value="backpack" />
+</item>
 <!-- Tokens -->
 <item id="24115" article="an" name="Avalonian token">
 	<attribute key="description" value="Someone on the island may be interested in this token, but you are unsure of its value." />
@@ -31229,6 +31364,18 @@
 <item id="26386" article="a" name="bush" />
 <item id="26387" article="a" name="bluerberry bush" />
 <item id="21157" article="" name="stepping stones" />
+<item id="26418" article="a" name="yellow blood herb">
+	<attribute key="weight" value="120" />
+</item>
+<item id="26419" article="a" name="green blood herb">
+	<attribute key="weight" value="120" />
+</item>
+<item id="26420" article="a" name=" purple blood herb">
+	<attribute key="weight" value="120" />
+</item>
+<item id="26421" article="a" name="blue blood herb">
+	<attribute key="weight" value="120" />
+</item>
 <!-- Donation -->
 <item id="16101" article="a" name="premium scroll">
 	<attribute key="description" value="Using this scroll will grant 30 days of premium time to your account." />
