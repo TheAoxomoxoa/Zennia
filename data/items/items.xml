@@ -31337,6 +31337,17 @@
 	<attribute key="shootType" value="spear" />
 	<attribute key="range" value="2" />
 </item>
+<!-- Staves -->
+<item id="26475" article="the" name="staff of the flame">
+	<attribute key="description" value="A small flame burns in its ruby." />
+	<attribute key="weight" value="3000" />
+	<attribute key="attack" value="10" />
+	<attribute key="elementFire" value="5" />
+	<attribute key="defense" value="15" />
+	<attribute key="magiclevelpoints" value="5" />
+	<attribute key="weaponType" value="club" />
+	<attribute key="slotType" value="two-handed" />
+</item>
 <!-- Armors -->
 <item id="26392" article="an" name="adventurer's vest">
 	<attribute key="weight" value="2400" />
@@ -31376,6 +31387,12 @@
 <item id="26421" article="a" name="blue blood herb">
 	<attribute key="weight" value="120" />
 </item>
+<item id="26472" article="a" name="glowing blue flower">
+		<attribute key="healthGain" value="1" />
+		<attribute key="healthTicks" value="500" />
+		<attribute key="manaGain" value="1" />
+		<attribute key="manaTicks" value="500" />
+</item>
 <!-- Donation -->
 <item id="16101" article="a" name="premium scroll">
 	<attribute key="description" value="Using this scroll will grant 30 days of premium time to your account." />
@@ -31408,3 +31425,5 @@
 	<attribute key="weight" value="1000" />
 </item>
 </items>
+
+26472
