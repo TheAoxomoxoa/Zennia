@@ -49,11 +49,12 @@ Real Tibia Redesigned
 	- Redesigned fishing system.
 	- Redesigned potion system.
 	- New day / night cycle that reflects real life day / night colorations.
-
+        - Completely custom spells and spell system.
 - Done:
 	- Removed:
 		- Ability to logoff in a PZ zone while combat locked.
 		- Full health & mana on level up.
+                - Every spell in the game.
 	- Added:
 		- 5 slot quiver.
 		- Monster Level System (Based on difficulty and without bonus attribution to attack, defense, speed and experience).
