@@ -1,9 +1,9 @@
 local combat = Combat()
-combat:setParameter(COMBAT_PARAM_TYPE, COMBAT_FIREDAMAGE)
-combat:setParameter(COMBAT_PARAM_EFFECT, CONST_ME_HITBYFIRE)
-combat:setParameter(COMBAT_PARAM_DISTANCEEFFECT, CONST_ANI_FIRE)
+combat:setParameter(COMBAT_PARAM_TYPE, COMBAT_EARTHDAMAGE)
+combat:setParameter(COMBAT_PARAM_EFFECT, CONST_ME_CARNIPHILA)
+combat:setParameter(COMBAT_PARAM_DISTANCEEFFECT, CONST_ANI_SMALLEARTH)
 
-local condition = Condition(CONDITION_FIRE)
+local condition = Condition(CONDITION_BLEEDING)
 condition:setParameter(CONDITION_PARAM_DELAYED, 1)
 
 local ticks = 3 -- Enter the amount of seconds between each damage tick
