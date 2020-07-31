@@ -1,60 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <spells>
 	<!-- Attack Spells -->
-	<instant group="attack" spellid="1" name="Lesser Flame Strike" words="ignis pello min" level="8" mana="10" premium="0" range="3" casterTargetOrDirection="1" blockwalls="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="attack/lesser_flame_strike.lua">
+	<instant group="attack" spellid="1" name="Lesser Flame Strike" words="ignis pello min" level="8" magiclevel="2" mana="10" premium="0" range="3" casterTargetOrDirection="1" blockwalls="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="attack/lesser_flame_strike.lua">
 	  <vocation name="Druid" />
 	  <vocation name="Elder Druid" />
 	</instant>
-	<instant group="attack" spellid="2" name="Lesser Ignite" words="ignis tempus min" level="8" mana="40" premium="0" range="3" casterTargetOrDirection="1" aggressive="1" blockwalls="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="attack/lesser_ignite.lua">
+	<instant group="attack" spellid="2" name="Lesser Ignite" words="ignis tempus min" level="8" magiclevel="4" mana="40" premium="0" range="3" casterTargetOrDirection="1" aggressive="1" blockwalls="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="attack/lesser_ignite.lua">
 	  <vocation name="Druid" />
 	  <vocation name="Elder Druid" />
 	</instant>
-	<instant group="attack" spellid="3" name="Lesser Earth Strike" words="terra pello min" level="8" mana="10" premium="0" range="3" casterTargetOrDirection="1" blockwalls="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="attack/lesser_earth_strike.lua">
+	<instant group="attack" spellid="3" name="Lesser Earth Strike" words="terra pello min" level="8" magiclevel="2" mana="10" premium="0" range="3" casterTargetOrDirection="1" blockwalls="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="attack/lesser_earth_strike.lua">
 		<vocation name="Druid" />
 		<vocation name="Elder Druid" />
 	</instant>
-	<instant group="attack" spellid="4" name="Lesser Quake" words="terra tempus min" level="8" mana="40" premium="0" range="3" casterTargetOrDirection="1" aggressive="1" blockwalls="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="attack/lesser_quake.lua">
+	<instant group="attack" spellid="4" name="Lesser Quake" words="terra tempus min" level="8" magiclevel="4" mana="40" premium="0" range="3" casterTargetOrDirection="1" aggressive="1" blockwalls="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="attack/lesser_quake.lua">
 		<vocation name="Druid" />
 		<vocation name="Elder Druid" />
 	</instant>
-	<instant group="attack" spellid="5" name="Lesser Energy Strike" words="vis pello min" level="8" mana="10" premium="0" range="3" casterTargetOrDirection="1" blockwalls="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="attack/lesser_energy_strike.lua">
+	<instant group="attack" spellid="5" name="Lesser Energy Strike" words="vis pello min" level="8" magiclevel="2" mana="10" premium="0" range="3" casterTargetOrDirection="1" blockwalls="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="attack/lesser_energy_strike.lua">
 		<vocation name="Sorcerer" />
 		<vocation name="Master Sorcerer" />
 	</instant>
-	<instant group="attack" spellid="6" name="Lesser Electrify" words="vis tempus min" level="8" mana="40" premium="0" range="3" casterTargetOrDirection="1" aggressive="1" blockwalls="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="attack/lesser_electrify.lua">
+	<instant group="attack" spellid="6" name="Lesser Electrify" words="vis tempus min" level="8" magiclevel="4" mana="40" premium="0" range="3" casterTargetOrDirection="1" aggressive="1" blockwalls="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="attack/lesser_electrify.lua">
 		<vocation name="Sorcerer" />
 		<vocation name="Master Sorcerer" />
 	</instant>
-	<instant group="attack" spellid="7" name="Lesser Ice Strike" words="frigor pello min" level="8" mana="10" premium="0" range="3" casterTargetOrDirection="1" blockwalls="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="attack/lesser_ice_strike.lua">
+	<instant group="attack" spellid="7" name="Lesser Ice Strike" words="frigor pello min" level="8" magiclevel="2" mana="10" premium="0" range="3" casterTargetOrDirection="1" blockwalls="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="attack/lesser_ice_strike.lua">
 		<vocation name="Druid" />
 		<vocation name="Elder Druid" />
 	</instant>
-	<instant group="attack" spellid="8" name="Lesser Frostbite" words="frigor tempus min" level="8" mana="40" premium="0" range="3" casterTargetOrDirection="1" aggressive="1" blockwalls="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="attack/lesser_frostbite.lua">
+	<instant group="attack" spellid="8" name="Lesser Frostbite" words="frigor tempus min" level="8" magiclevel="4" mana="40" premium="0" range="3" casterTargetOrDirection="1" aggressive="1" blockwalls="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="attack/lesser_frostbite.lua">
 		<vocation name="Druid" />
 		<vocation name="Elder Druid" />
 	</instant>
-	<instant group="attack" spellid="9" name="Lesser Death Strike" words="mors pello min" level="8" mana="10" premium="0" range="3" casterTargetOrDirection="1" aggressive="1" blockwalls="1" cooldown="2000" groupcooldown="0" needlearn="0" script="attack/lesser_death_strike.lua">
+	<instant group="attack" spellid="9" name="Lesser Death Strike" words="mors pello min" level="8" magiclevel="2" mana="10" premium="0" range="3" casterTargetOrDirection="1" aggressive="1" blockwalls="1" cooldown="2000" groupcooldown="0" needlearn="0" script="attack/lesser_death_strike.lua">
 		<vocation name="Sorcerer" />
 		<vocation name="Master Sorcerer" />
 	</instant>
-	<instant group="attack" spellid="10" name="Lesser Torment" words="mors tempus min" level="8" mana="40" premium="0" range="3" casterTargetOrDirection="1" aggressive="1" blockwalls="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="attack/lesser_torment.lua">
+	<instant group="attack" spellid="10" name="Lesser Torment" words="mors tempus min" level="8" magiclevel="4" mana="40" premium="0" range="3" casterTargetOrDirection="1" aggressive="1" blockwalls="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="attack/lesser_torment.lua">
 		<vocation name="Sorcerer" />
 		<vocation name="Master Sorcerer" />
 	</instant>
-	<instant group="attack" spellid="11" name="Lesser Holy Strike" words="sanctus pello min" level="8" mana="10" premium="0" range="3" casterTargetOrDirection="1" aggressive="1" blockwalls="1" cooldown="2000" groupcooldown="0" needlearn="0" script="attack/lesser_holy_strike.lua">
+	<instant group="attack" spellid="11" name="Lesser Holy Strike" words="sanctus pello min" level="8" magiclevel="2" mana="10" premium="0" range="3" casterTargetOrDirection="1" aggressive="1" blockwalls="1" cooldown="2000" groupcooldown="0" needlearn="0" script="attack/lesser_holy_strike.lua">
 		<vocation name="Sorcerer" />
 		<vocation name="Master Sorcerer" />
 	</instant>
-	<instant group="attack" spellid="12" name="Lesser Magic Missile" words="vis multi min" level="8" mana="20" premium="0" range="3" casterTargetOrDirection="1" aggressive="1" blockwalls="1" cooldown="2000" groupcooldown="0" needlearn="0" script="attack/lesser_magic_missile.lua">
-		<vocation name="Sorcerer" />
-		<vocation name="Master Sorcerer" />
-	</instant>
-	<instant group="attack" spellid="12" name="Fire Bomb" words="ignis fulgur" level="8" mana="20" premium="0" range="5" casterTargetOrDirection="1" needtarget="1" aggressive="1" blockwalls="1" cooldown="2000" groupcooldown="0" needlearn="0" script="attack/fire_bomb.lua">
+	<instant group="attack" spellid="12" name="Lesser Magic Missile" words="vis multi min" level="8" magiclevel="4" mana="20" premium="0" range="3" casterTargetOrDirection="1" aggressive="1" blockwalls="1" cooldown="2000" groupcooldown="0" needlearn="0" script="attack/lesser_magic_missile.lua">
 		<vocation name="Sorcerer" />
 		<vocation name="Master Sorcerer" />
 	</instant>
 	<!-- Healing Spells -->
-	<instant group="healing" spellid="9" name="Lesser Heal" words="sana min" level="8" mana="20" aggressive="0" selftarget="1" cooldown="1000" groupcooldown="1000" needlearn="0" script="healing/lesser_heal.lua">
+	<instant group="healing" spellid="9" name="Lesser Heal" words="sana min" level="8" magiclevel="0" mana="20" aggressive="0" selftarget="1" cooldown="1000" groupcooldown="1000" needlearn="0" script="healing/lesser_heal.lua">
 		<vocation name="Sorcerer" />
 		<vocation name="Druid" />
 		<vocation name="Paladin" />
@@ -64,11 +60,11 @@
 		<vocation name="Royal Paladin" />
 		<vocation name="Elite Knight" />
 	</instant>
-	<instant group="healing" spellid="9" name="Lesser Rejuvenation" words="sana tempus min" level="8" mana="50" aggressive="0" selftarget="1" cooldown="5000" groupcooldown="1000" needlearn="0" script="healing/lesser_rejuvenation.lua">
+	<instant group="healing" spellid="9" name="Lesser Rejuvenation" words="sana tempus min" level="8" magiclevel="1" mana="50" aggressive="0" selftarget="1" cooldown="5000" groupcooldown="1000" needlearn="0" script="healing/lesser_rejuvenation.lua">
 		<vocation name="Druid" />
 		<vocation name="Elder Druid" />
 	</instant>
-	<instant group="healing" spellid="9" name="Heal" words="sana" level="8" mana="40" aggressive="0" selftarget="1" cooldown="1000" groupcooldown="1000" needlearn="0" script="healing/heal.lua">
+	<instant group="healing" spellid="9" name="Heal" words="sana" level="8" magiclevel="2" mana="40" aggressive="0" selftarget="1" cooldown="1000" groupcooldown="1000" needlearn="0" script="healing/heal.lua">
 		<vocation name="Sorcerer" />
 		<vocation name="Druid" />
 		<vocation name="Paladin" />
@@ -78,13 +74,13 @@
 		<vocation name="Royal Paladin" />
 		<vocation name="Elite Knight" />
 	</instant>
-	<instant group="healing" spellid="9" name="Rejuvenation" words="sana tempus" level="8" mana="100" aggressive="0" selftarget="1" cooldown="5000" groupcooldown="1000" needlearn="0" script="healing/rejuvenation.lua">
+	<instant group="healing" spellid="9" name="Rejuvenation" words="sana tempus" level="8" magiclevel="4" mana="100" aggressive="0" selftarget="1" cooldown="5000" groupcooldown="1000" needlearn="0" script="healing/rejuvenation.lua">
 		<vocation name="Druid" />
 		<vocation name="Elder Druid" />
 	</instant>
 
 	<!-- Support Spells -->
-	<instant group="support" spellid="9" name="Lesser Light" words="lux min" level="8" mana="10" aggressive="0" selftarget="1" cooldown="1000" groupcooldown="1000" needlearn="0" script="support/lesser_light.lua">
+	<instant group="support" spellid="9" name="Lesser Light" words="lux min" level="8" magiclevel="0" mana="10" aggressive="0" selftarget="1" cooldown="1000" groupcooldown="1000" needlearn="0" script="support/lesser_light.lua">
 		<vocation name="Sorcerer" />
 		<vocation name="Druid" />
 		<vocation name="Paladin" />
@@ -94,7 +90,7 @@
 		<vocation name="Royal Paladin" />
 		<vocation name="Elite Knight" />
 	</instant>
-	<instant group="support" spellid="9" name="Light" words="lux" level="8" mana="20" aggressive="0" selftarget="1" cooldown="1000" groupcooldown="1000" needlearn="0" script="support/light.lua">
+	<instant group="support" spellid="9" name="Light" words="lux" level="8" magiclevel="4" mana="20" aggressive="0" selftarget="1" cooldown="1000" groupcooldown="1000" needlearn="0" script="support/light.lua">
 		<vocation name="Sorcerer" />
 		<vocation name="Druid" />
 		<vocation name="Paladin" />
@@ -104,7 +100,7 @@
 		<vocation name="Royal Paladin" />
 		<vocation name="Elite Knight" />
 	</instant>
-	<instant group="support" spellid="9" name="Greater Light" words="lux magna" level="8" mana="50" aggressive="0" selftarget="1" cooldown="1000" groupcooldown="1000" needlearn="0" script="support/greater_light.lua">
+	<instant group="support" spellid="9" name="Greater Light" words="lux magna" level="8" magiclevel="20" mana="50" aggressive="0" selftarget="1" cooldown="1000" groupcooldown="1000" needlearn="0" script="support/greater_light.lua">
 		<vocation name="Sorcerer" />
 		<vocation name="Druid" />
 		<vocation name="Master Sorcerer" />
