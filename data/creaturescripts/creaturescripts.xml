@@ -11,4 +11,6 @@
 	<event type="login" name="BeginningItems" script="Avalon/BeginningItems.lua" />
 	<event type="kill" name="GaiusTasks" script="Avalon/GaiusTasks.lua" />
 	<event type="advance" name="AvalonMSG" script="Avalon/AvalonMSG.lua"/>
+	<!-- Modal Windows -->
+	<event type="modalwindow" name="ModalWindowHelper" script="modalwindowhelper.lua" />
 </creaturescripts>

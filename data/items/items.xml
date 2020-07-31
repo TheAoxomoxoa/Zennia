@@ -13226,7 +13226,7 @@
 	</item>
 	<item id="7619" name="linen" />
 	<item id="7620" article="a" name="small mana potion">
-		<attribute key="weight" value="270" />
+		<attribute key="weight" value="200" />
 	</item>
 	<item id="7621" article="a" name="dead dragon hatchling">
 		<attribute key="containerSize" value="15" />
@@ -31324,6 +31324,8 @@
 	<attribute key="containerSize" value="20" />
 	<attribute key="slotType" value="backpack" />
 </item>
+<item id="26052" name="Store Inbox">
+</item>
 <!-- Tokens -->
 <item id="24115" article="an" name="Avalonian token">
 	<attribute key="description" value="Someone on the island may be interested in this token, but you are unsure of its value." />
@@ -31406,6 +31408,11 @@
 <item id="26399" name="baked chicken meal">
 	<attribute key="weight" value="1000" />
 	<attribute key="showcount" value="0" />
+</item>
+<!-- Cosmetic -->
+<item id="26396" article="an" name="addon tome">
+	<attribute key="description" value="You can use this tome to unlock a single addon set." />
+	<attribute key="weight" value="1000" />
 </item>
 <!-- Spell Wands -->
 <item id="26414" article="a" name="red spellwand">

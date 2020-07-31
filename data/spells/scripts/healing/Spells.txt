@@ -1,0 +1,75 @@
+Lesser:
+	Fire:
+X		Flame Strike (D, ED)
+X		Ignite (D, ED)
+	Earth:
+X		Earth Strike (D, ED)
+X		Quake (D, ED)
+	Energy:
+X		Energy Strike (S, MS)
+X		Electrify (S, MS)
+		Energy Bomb (S, MS)
+	Ice:
+X		Ice Strike (D, ED)
+X		Frostbite (D, ED)
+	Death:
+X		Death Strike (S, MS)
+X		Death Curse (S, MS)
+	Poison:
+		Poisonous Strike (K, EK) --DoT
+		Poisonous Dart (P, RP) --DoT
+	Physical:
+		Strike (K, EK) --Single
+		Piercing Shot (P, RP) --Single
+
+Normal:
+	Fire:
+		Flame Strike
+		Ignite
+	Earth:
+		Earth Strike
+		Quake
+	Energy:
+		Energy Strike
+		Electrify
+		Energy Bomb
+	Ice:
+		Ice Strike
+		Frostbite
+	Death:
+		Death Strike
+		Death Curse
+	Poison:
+		Poisonous Strike (K, EK)
+		Poisonous Dart (P, RP)
+	Curse:
+		Curse Soul (S, MS)
+		Soul Strike (S, MS) --Single
+	Physical:
+		Strike (K, EK) --Single
+		Rend (K, EK) --DoT
+		Cripple (K, EK) --Slow
+		
+Greater:
+	Fire:
+		Flame Strike
+		Ignite
+	Earth:
+		Earth Strike
+		Quake
+	Energy:
+		Energy Strike
+		Electrify
+	Ice:
+		Ice Strike
+		Frostbite
+	Death:
+		Death Strike
+		Curse
+		
+Master:
+	Fire:
+	Earth:
+	Energy:
+	Ice:
+	Death:

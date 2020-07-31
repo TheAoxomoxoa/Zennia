@@ -20,9 +20,9 @@
 #ifndef FS_DEFINITIONS_H_877452FEC245450C9F96B8FD268D8963
 #define FS_DEFINITIONS_H_877452FEC245450C9F96B8FD268D8963
 
-static constexpr auto STATUS_SERVER_NAME = "The Forgotten Server";
-static constexpr auto STATUS_SERVER_VERSION = "1.3";
-static constexpr auto STATUS_SERVER_DEVELOPERS = "Mark Samman";
+static constexpr auto STATUS_SERVER_NAME = "Zinnia";
+static constexpr auto STATUS_SERVER_VERSION = "Alpha Release";
+static constexpr auto STATUS_SERVER_DEVELOPERS = "Eric Brown / Aoxomoxoa";
 
 static constexpr auto CLIENT_VERSION_MIN = 1097;
 static constexpr auto CLIENT_VERSION_MAX = 1098;

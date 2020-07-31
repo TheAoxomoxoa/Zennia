@@ -8,4 +8,8 @@ dofile('data/lib/compat/compat.lua')
 dofile('data/lib/debugging/dump.lua')
 dofile('data/lib/debugging/lua_version.lua')
 
+-- Avalon Tasks
 dofile('data/lib/custom/Avalon/GaiusTasks.lua')
+
+-- Modal Windows
+dofile('data/lib/modalwindow.lua')

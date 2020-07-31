@@ -198,7 +198,7 @@ bool Game::loadMainMap(const std::string& filename)
 {
 	Monster::despawnRange = g_config.getNumber(ConfigManager::DEFAULT_DESPAWNRANGE);
 	Monster::despawnRadius = g_config.getNumber(ConfigManager::DEFAULT_DESPAWNRADIUS);
-	return map.loadMap("data/world/" + filename + ".otbm", true);
+	return map.loadMap("data/map/" + filename + ".otbm", true);
 }
 
 void Game::loadMap(const std::string& path)
@@ -1935,12 +1935,12 @@ void Game::playerOpenPrivateChannel(uint32_t playerId, std::string& receiver)
 	}
 
 	if (!IOLoginData::formatPlayerName(receiver)) {
-		player->sendCancelMessage("A player with this name does not exist.");
+		player->sendCancelMessage("A player with this name does not exist or is not online.");
 		return;
 	}
 
 	if (player->getName() == receiver) {
-		player->sendCancelMessage("You cannot set up a private message channel with yourself.");
+		player->sendCancelMessage("You cannot chat with yourself.");
 		return;
 	}
 
@@ -2553,7 +2553,7 @@ void Game::playerRequestTrade(uint32_t playerId, const Position& pos, uint8_t st
 
 	if (!Position::areInRange<2, 2, 0>(tradePartner->getPosition(), player->getPosition())) {
 		std::ostringstream ss;
-		ss << tradePartner->getName() << " tells you to move closer.";
+		ss << tradePartner->getName() << " motions you to move a little closer.";
 		player->sendTextMessage(MESSAGE_INFO_DESCR, ss.str());
 		return;
 	}
@@ -2634,8 +2634,8 @@ void Game::playerRequestTrade(uint32_t playerId, const Position& pos, uint8_t st
 	}
 
 	Container* tradeContainer = tradeItem->getContainer();
-	if (tradeContainer && tradeContainer->getItemHoldingCount() + 1 > 100) {
-		player->sendTextMessage(MESSAGE_INFO_DESCR, "You can not trade more than 100 items.");
+	if (tradeContainer && tradeContainer->getItemHoldingCount() + 1 > 500) {
+		player->sendTextMessage(MESSAGE_INFO_DESCR, "You can not trade more than 500 items.");
 		return;
 	}
 
@@ -2666,7 +2666,7 @@ bool Game::internalStartTrade(Player* player, Player* tradePartner, Item* tradeI
 
 	if (tradePartner->tradeState == TRADE_NONE) {
 		std::ostringstream ss;
-		ss << player->getName() << " wants to trade with you.";
+		ss << player->getName() << " has requested to trade.";
 		tradePartner->sendTextMessage(MESSAGE_EVENT_ADVANCE, ss.str());
 		tradePartner->tradeState = TRADE_ACKNOWLEDGE;
 		tradePartner->tradePartner = player;
@@ -3203,7 +3203,7 @@ void Game::playerRequestAddVip(uint32_t playerId, const std::string& name)
 		bool specialVip;
 		std::string formattedName = name;
 		if (!IOLoginData::getGuidByNameEx(guid, specialVip, formattedName)) {
-			player->sendTextMessage(MESSAGE_STATUS_SMALL, "A player with this name does not exist.");
+			player->sendTextMessage(MESSAGE_STATUS_SMALL, "A player with this name does not exist or is not online.");
 			return;
 		}
 

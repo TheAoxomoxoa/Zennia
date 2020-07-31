@@ -239,4 +239,7 @@
 	<action fromid="20273" toid="20290" script="other/doors.lua" />
 	<action itemid="23923" script="other/music.lua" />
 	<action fromid="26029" toid="26031" script="other/potions.lua" />
+
+	<!-- Custom -->
+	<action itemid="26396" script="addon_tome.lua"/>
 </actions>
