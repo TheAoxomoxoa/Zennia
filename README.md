@@ -1,5 +1,5 @@
-## OT-Project
-Real Tibia Redesigned
+## Zennia
+A true RPG experience with some Tibia sprinkled in.
 
 ------------
 
@@ -28,7 +28,53 @@ Real Tibia Redesigned
 	- More clubs are added to the game to balance the amount of melee weapons for low level knights.
 		- Light Mace (Atk: 11, Def: 10)
 		- Spiked Club (Atk: 14, Def: 11)
-
+- Spells
+	- Sorcerer:
+		- Lesser Energy Strike (ML: 2)
+			- Simple energy attack based on magic level.
+		- Lesser Death Strike (ML: 2)
+			- Simple death attack based on magic level.
+		- Lesser Holy Strike (ML: 2)
+			- Simple holy attack based on magic level.
+		- Lesser Magic Missile (ML: 4)
+			- Torrent of 4 magic missiles that attack the target from a distance.
+		- Lesser Electrify (ML: 4)
+			- DoT energy attack that deals 8 damage every 3 seconds for 15 seconds.
+		- Lesser Torment (ML: 4)
+			- DoT death attack that deals 8 damage every 3 seconds for 15 seconds.
+		- Greater Light (ML: 20)
+			- Grants a large amount of light for 1 minute.
+	- Druid:
+		- Lesser Rejuvenation (ML: 0)
+			- HoT spell that heals 10 health every 3 seconds for 30 seconds.
+		- Lesser Flame Strike (ML: 2)
+			- Simple fire attack based on magic level.
+		- Lesser Earth Strike (ML: 2)
+			- Simple earth attack based on magic level.
+		- Lesser Ice Strike (ML: 2)
+			- Simple ice attack based on magic level.
+		- Lesser Ignite (ML: 4)
+			- DoT fire attack that deals 8 damage every 3 seconds for 15 seconds.
+		- Lesser Quake (ML: 4)
+			- DoT earth attack that deals 8 damage every 3 seconds for 15 seconds.
+		- Lesser Frostbite (ML: 4)
+			- DoT ice attack that deals 8 damage every 3 seconds for 15 seconds.
+		- Rejuvenation (ML: 4)
+			- HoT spell that heals 20 health every 3 seconds for 30 seconds.
+		- Greater Light (ML: 20)
+			- Grants a large amount of light for 1 minute.
+	- Paladin:
+	- Knight:
+	- Universal:
+		- Lesser Heal (ML: 0)
+			- Heals the player for a low amount of health based on magic level.
+		- Lesser Light (ML: 0)
+			- Grants a small amount of light for 1 minute.
+		- Heal (ML: 2)
+			- Heals the player for an average amount of health based on magic level.
+		- Light (ML: 4)
+			- Grants an average amount of light for 1 minute.
+		
 #### Client Side
 - Sprites
 	- Sprites of some items are changed to reflect a new style. Taken from 7.4-10.98 as well as OT Sprite Pack and being hand made by me.
@@ -43,18 +89,20 @@ Real Tibia Redesigned
 ##### To Do:
 - To Remove:
 	- Rune stacking.
-	- Various runes and spells.
+	- Modal trade windows.
 
 - To Add:
 	- Redesigned fishing system.
 	- Redesigned potion system.
 	- New day / night cycle that reflects real life day / night colorations.
-        - Completely custom spells and spell system.
+	- Completely custom spells and spell system.
+	- Ceremonial weapons (Druid rod replacement).
+	- Staves (Sorcerer wand replacement).
 - Done:
 	- Removed:
 		- Ability to logoff in a PZ zone while combat locked.
 		- Full health & mana on level up.
-                - Every spell in the game.
+		- Every original spell.
 	- Added:
 		- 5 slot quiver.
 		- Monster Level System (Based on difficulty and without bonus attribution to attack, defense, speed and experience).
