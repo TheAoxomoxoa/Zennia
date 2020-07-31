@@ -7,7 +7,7 @@ local condition = Condition(CONDITION_ENERGY)
 condition:setParameter(CONDITION_PARAM_DELAYED, 1)
 
 local ticks = 3 -- Enter the amount of seconds between each damage tick
-local repeats = 10 -- Enter the amount of times you want this damage to repeat
+local repeats = 5 -- Enter the amount of times you want this damage to repeat
 
 function onCastSpell(creature, var)
     local damage = 8
