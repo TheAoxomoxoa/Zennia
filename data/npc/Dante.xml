@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<npc name="Dante" script="Thais/Dante.lua" walkinterval="2000" floorchange="0">
+<npc name="Dante" script="Taros/Dante.lua" walkinterval="2000" floorchange="0">
 	<health now="100" max="100" />
 	<look type="128" head="97" body="38" legs="69" feet="114" addons="0" />
 	<parameters>

@@ -36,8 +36,8 @@ A true RPG experience with some Tibia sprinkled in.
 			- Simple death attack based on magic level.
 		- Lesser Holy Strike (ML: 2)
 			- Simple holy attack based on magic level.
-		- Lesser Magic Missile (ML: 4)
-			- Torrent of 4 magic missiles that attack the target from a distance.
+		- Lesser Energy Missiles (ML: 4)
+			- Torrent of 4 energy missiles that attack the target from a distance.
 		- Lesser Electrify (ML: 4)
 			- DoT energy attack that deals 8 damage every 3 seconds for 15 seconds.
 		- Lesser Torment (ML: 4)
@@ -74,7 +74,7 @@ A true RPG experience with some Tibia sprinkled in.
 			- Heals the player for an average amount of health based on magic level.
 		- Light (ML: 4)
 			- Grants an average amount of light for 1 minute.
-		
+
 #### Client Side
 - Sprites
 	- Sprites of some items are changed to reflect a new style. Taken from 7.4-10.98 as well as OT Sprite Pack and being hand made by me.

@@ -1,6 +1,0 @@
-<?xml version="1.0"?>
-<houses>
-	<house name="Avalon Central Flats 1" houseid="18" entryx="661" entryy="1701" entryz="7" rent="0" townid="1" size="10" />
-	<house name="Avalon Central Flats 2" houseid="19" entryx="657" entryy="1701" entryz="7" rent="0" townid="1" size="10" />
-	<house name="Avalon Central Flats Shop" houseid="20" entryx="660" entryy="1701" entryz="6" rent="0" townid="1" size="22" />
-</houses>

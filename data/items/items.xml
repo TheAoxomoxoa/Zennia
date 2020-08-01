@@ -31364,6 +31364,67 @@
 <item id="26383" article="a" name="large campfire" />
 <item id="26412" article="a" name="lit street lamp" />
 <item id="26413" article="a" name="street lamp" />
+<item id="26539" article="a" name="magic portal">
+	<attribute key="description" value="It burns a magical flame." />
+	<attribute key="type" value="teleport" />
+	<attribute key="effect" value="teleport" />
+</item>
+<item id="26540" article="a" name="magic portal">
+	<attribute key="description" value="It burns a magical flame." />
+	<attribute key="type" value="teleport" />
+	<attribute key="effect" value="teleport" />
+</item>
+<item id="26541" article="a" name="magic portal">
+	<attribute key="description" value="It burns a magical flame." />
+	<attribute key="type" value="teleport" />
+	<attribute key="effect" value="teleport" />
+</item>
+<item id="26542" article="a" name="magic portal">
+	<attribute key="description" value="It burns a magical flame." />
+	<attribute key="type" value="teleport" />
+	<attribute key="effect" value="teleport" />
+</item>
+<item id="26543" article="a" name="magic portal">
+	<attribute key="description" value="It burns a magical flame." />
+	<attribute key="type" value="teleport" />
+	<attribute key="effect" value="teleport" />
+</item>
+<item id="26544" article="a" name="magic portal">
+	<attribute key="description" value="It burns a magical flame." />
+	<attribute key="type" value="teleport" />
+	<attribute key="effect" value="teleport" />
+</item>
+<item id="26545" article="a" name="magic portal">
+	<attribute key="description" value="It burns a magical flame." />
+	<attribute key="type" value="teleport" />
+	<attribute key="effect" value="teleport" />
+</item>
+<item id="26546" article="a" name="magic portal">
+	<attribute key="description" value="It burns a magical flame." />
+	<attribute key="type" value="teleport" />
+	<attribute key="effect" value="teleport" />
+</item>
+<item id="26547" article="a" name="magic portal">
+	<attribute key="description" value="It burns a magical flame." />
+	<attribute key="type" value="teleport" />
+	<attribute key="effect" value="teleport" />
+</item>
+<item id="26548" article="a" name="magic portal">
+	<attribute key="description" value="It burns a magical flame." />
+	<attribute key="type" value="teleport" />
+	<attribute key="effect" value="teleport" />
+</item>
+<item id="26549" article="a" name="magic portal">
+	<attribute key="description" value="It burns a magical flame." />
+	<attribute key="type" value="teleport" />
+	<attribute key="effect" value="teleport" />
+</item>
+<item id="26550" article="a" name="magic portal">
+	<attribute key="description" value="It burns a magical flame." />
+	<attribute key="type" value="teleport" />
+	<attribute key="effect" value="teleport" />
+</item>
+
 <!-- Grounds -->
 <item id="22745" name="thaian cobblestone" />
 <item id="22746" name="thaian cobblestone" />

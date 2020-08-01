@@ -20,7 +20,7 @@
 #ifndef FS_DEFINITIONS_H_877452FEC245450C9F96B8FD268D8963
 #define FS_DEFINITIONS_H_877452FEC245450C9F96B8FD268D8963
 
-static constexpr auto STATUS_SERVER_NAME = "Zinnia";
+static constexpr auto STATUS_SERVER_NAME = "Zennia";
 static constexpr auto STATUS_SERVER_VERSION = "Alpha Release";
 static constexpr auto STATUS_SERVER_DEVELOPERS = "Eric Brown / Aoxomoxoa";
 

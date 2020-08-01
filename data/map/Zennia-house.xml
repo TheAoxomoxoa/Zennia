@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<houses>
+	<house name="Avalon Central Flats 1" houseid="18" entryx="661" entryy="1701" entryz="7" rent="650" townid="1" size="10" />
+	<house name="Avalon Central Flats 2" houseid="19" entryx="657" entryy="1701" entryz="7" rent="650" townid="1" size="10" />
+	<house name="Avalon Central Flats Shop" houseid="20" entryx="660" entryy="1701" entryz="6" rent="1650" townid="1" size="22" />
+	<house name="Temple Way 1" houseid="21" entryx="1109" entryy="1049" entryz="7" rent="2150" townid="2" size="38" />
+	<house name="Temple Way 2" houseid="22" entryx="1109" entryy="1053" entryz="7" rent="2150" townid="2" size="38" />
+	<house name="Sleepy Alley 1" houseid="23" entryx="1117" entryy="1050" entryz="7" rent="2300" townid="2" size="43" />
+	<house name="Sleepy Alley 2" houseid="24" entryx="1117" entryy="1056" entryz="7" rent="2300" townid="2" size="43" />
+	<house name="Sleepy Alley 3" houseid="25" entryx="1124" entryy="1050" entryz="7" rent="850" townid="2" size="14" />
+	<house name="Sleepy Alley 4" houseid="26" entryx="1129" entryy="1050" entryz="7" rent="850" townid="2" size="14" />
+	<house name="Sleepy Alley 5" houseid="27" entryx="1121" entryy="1056" entryz="7" rent="9400" townid="2" size="179" />
+	<house name="Sleepy Alley 6" houseid="28" entryx="1117" entryy="1064" entryz="7" rent="1050" townid="2" size="18" />
+	<house name="Sleepy Alley 7" houseid="29" entryx="1117" entryy="1070" entryz="7" rent="1050" townid="2" size="18" />
+	<house name="Sleepy Alley 8" houseid="30" entryx="1121" entryy="1072" entryz="7" rent="3150" townid="2" size="58" />
+	<house name="Taros Tower 1" houseid="31" entryx="1062" entryy="1059" entryz="7" rent="1800" townid="2" size="31" />
+	<house name="Taros Tower 2" houseid="32" entryx="1062" entryy="1066" entryz="7" rent="1050" townid="2" size="18" />
+	<house name="Taros Tower 3" houseid="33" entryx="1062" entryy="1071" entryz="7" rent="1050" townid="2" size="18" />
+	<house name="Taros Tower 4" houseid="34" entryx="1062" entryy="1076" entryz="7" rent="1050" townid="2" size="18" />
+	<house name="Taros Tower 5" houseid="35" entryx="1062" entryy="1059" entryz="6" rent="1800" townid="2" size="31" />
+	<house name="Taros Tower 6" houseid="36" entryx="1062" entryy="1066" entryz="6" rent="1050" townid="2" size="18" />
+	<house name="Taros Tower 7" houseid="37" entryx="1062" entryy="1071" entryz="6" rent="1050" townid="2" size="18" />
+	<house name="Taros Tower 8" houseid="38" entryx="1062" entryy="1076" entryz="6" rent="1050" townid="2" size="18" />
+	<house name="Taros Tower 9" houseid="39" entryx="1062" entryy="1060" entryz="5" rent="1800" townid="2" size="31" />
+	<house name="Taros Tower 10" houseid="40" entryx="1062" entryy="1066" entryz="5" rent="1050" townid="2" size="18" />
+	<house name="Taros Tower 11" houseid="41" entryx="1062" entryy="1071" entryz="5" rent="1050" townid="2" size="18" />
+	<house name="Taros Tower 12" houseid="42" entryx="1062" entryy="1076" entryz="5" rent="1050" townid="2" size="18" />
+	<house name="Taros Tower 13" houseid="43" entryx="1062" entryy="1060" entryz="4" rent="1800" townid="2" size="31" />
+	<house name="Taros Tower 14" houseid="44" entryx="1062" entryy="1066" entryz="4" rent="1050" townid="2" size="18" />
+	<house name="Taros Tower 15" houseid="45" entryx="1062" entryy="1071" entryz="4" rent="1050" townid="2" size="18" />
+	<house name="Taros Tower 16" houseid="46" entryx="1062" entryy="1076" entryz="4" rent="1050" townid="2" size="18" />
+</houses>
